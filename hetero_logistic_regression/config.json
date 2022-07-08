@@ -1,0 +1,10 @@
+{
+  "connect": {
+    "ip": "localhost",
+    "port": "5555"
+  },
+  "data": {
+    "guest": "data/guest.csv",
+    "host": "data/host.csv"
+  }
+}

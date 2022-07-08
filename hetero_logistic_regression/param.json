@@ -1,0 +1,22 @@
+{
+  "batch_size": 5000,
+  "learning_rate": 2,
+  "alpha": 0.00,
+  "epochs": 200,
+  "n_length": 1024,
+  "encrypt_mode": "fake",
+  "penalty": "L2",
+  "decay": 1,
+  "decay_sqrt":true,
+  "threshold": 0.5,
+  "data": {
+    "train": {
+      "guest": "data/epsilon_5k_hetero_guest.csv",
+      "host": "data/epsilon_5k_hetero_host.csv"
+    },
+    "test": {
+      "guest": "data/epsilon_5k_hetero_guest.csv",
+      "host": "data/epsilon_5k_hetero_host.csv"
+    }
+  }
+}

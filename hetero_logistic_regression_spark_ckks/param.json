@@ -1,0 +1,24 @@
+{
+  "batch_size": 2048,
+  "learning_rate": 0.15,
+  "alpha": 0.00,
+  "epochs": 5,
+  "n_lengths": [8192,[60,40,40,60],40],
+  "n_length": 2048,
+  "encrypt_mode": "ckks",
+  "back_end": "spark",
+  "penalty": "L2",
+  "decay": 1,
+  "decay_sqrt":true,
+  "threshold": 0.5,
+  "data": {
+    "train": {
+      "guest": "data/breast_hetero_guest.csv",
+      "host": "data/breast_hetero_host.csv"
+    },
+    "test": {
+      "guest": "data/breast_hetero_guest.csv",
+      "host": "data/breast_hetero_host.csv"
+    }
+  }
+}
